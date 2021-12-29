@@ -52,10 +52,6 @@ def get_ytb_link(ytb_iframe_url):
     return replaced_url
 
 
-# Export scraped data to CSV
-def export_to_csv():
-    pass
-
 
 # Main function
 def main():
