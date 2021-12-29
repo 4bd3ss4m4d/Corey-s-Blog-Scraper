@@ -47,7 +47,7 @@ def corey_blog_scraper(URL):
 
 # Turn iframe youtube link to a normal one
 def get_ytb_link(ytb_iframe_url):
-    # Replace iframe youtube link with a normal youtube link using re's sub library
+    # Replace iframe youtube link with a normal youtube link using re's sub function
     replaced_url = re.sub(r'(embed/)', 'watch?v=', re.split(r'\?', ytb_iframe_url)[0])
     return replaced_url
 
